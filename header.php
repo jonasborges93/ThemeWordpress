@@ -9,9 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/scripts.js"></script>
     <title>Meu Portfolio - Jonas Borges</title>
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class();?>>
