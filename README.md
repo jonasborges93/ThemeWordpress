@@ -48,7 +48,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## Instalação
 Para realizar o instalção, é necessário ter um wordpress limpo, você pode baixar através do [desse link](https://wordpress.org/download/). 
 
-- Após as configurações iniciais, adicionar o tema na pasta 'wp-content/themes'.
+- Após as configurações iniciais, clonar o repositório na pasta 'wp-content/themes'.
 
 - Realizar a ativação do tema na sua tela de administrador do wordpress em 'aparencia/temas'.
 
