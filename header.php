@@ -14,3 +14,6 @@
 </head>
 
 <body <?php body_class();?>>
+<nav class="mainMenu">
+    <?php wp_nav_menu(array('theme_location' => 'my_main_menu'))?>
+</nav>

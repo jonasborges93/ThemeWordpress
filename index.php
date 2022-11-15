@@ -63,61 +63,11 @@
                     <li class="technologies__item no-margin">Figma</li>
                 </ul>
             </div>
-            <div class="sidebar__experiences cards">
-                <h2 class="sidebar__title">Experiências</h2>
-                <ul class="experiences__list">
-                    <li class="experiences__item">
-                        <h3 class="experiences__title">Web Designer - Autônomo</h3>
-                        <p class="experiences__situation">Ago de 2020 - Atualmente</p>
-                        <p class="experiences__organization">Agência Jonas Borges</p>
-                    </li>
-                    <li class="experiences__item">
-                        <h3 class="experiences__title">Desenvolvedor Front-End</h3>
-                        <p class="experiences__situation">Mai de 2019 - Nov de 2020</p>
-                        <p class="experiences__organization">Am4 - Inteligência Digital de Resultados</p>
-                    </li>
-                    <li class="experiences__item">
-                        <h3 class="experiences__title">Estágiário de Desenvolvimento Web</h3>
-                        <p class="experiences__situation">Mar de 2019 - Mai de 2019</p>
-                        <p class="experiences__organization">Hattrick Comunicação</p>
-                    </li>
-                    <li class="experiences__item">
-                        <h3 class="experiences__title">Estagiário de T.I.</h3>
-                        <p class="experiences__situation">Mar de 2018 - Mar de 2019</p>
-                        <p class="experiences__organization">Associação Educacional Dom Bosco</p>
-                    </li>
-                    <li class="experiences__item">
-                        <h3 class="experiences__title">Estagiário de Suporte</h3>
-                        <p class="experiences__situation">Jun de 2017 - Fev de 2018</p>
-                        <p class="experiences__organization">Custom Sistemas</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="sidebar__education cards">
-                <h2 class="sidebar__title">Formação acadêmica</h2>
-                <ul class="education__list">
-                    <li class="education__item">
-                        <h3 class="education__title">Rocketseat</h3>
-                        <p class="education__situation">Out de 2022 - Dez de 2022</p>
-                        <p class="education__organization">Trilha Discover (Em Andamento)</p>
-                    </li>
-                    <li class="education__item">
-                        <h3 class="education__title">Faculdades Dom Bosco</h3>
-                        <p class="education__situation">Jan de 2016 - Dez de 2019</p>
-                        <p class="education__organization">Bacharelado em Sistemas de Informações</p>
-                    </li>
-                    <li class="education__item">
-                        <h3 class="education__title">a Escola de Sites</h3>
-                        <p class="education__situation">Jun de 2022 - Set de 2022</p>
-                        <p class="education__organization">Sites Lucrativos</p>
-                    </li>
-                    <li class="education__item">
-                        <h3 class="education__title">Upinside Treinamentos</h3>
-                        <p class="education__situation">Jul de 2020 - Nov de 2020</p>
-                        <p class="education__organization">Agência de Valor</p>
-                    </li>
-                </ul>
-            </div>
+
+            <?php get_template_part('template-parts/experiencies-partial');?>
+            <?php get_template_part('template-parts/educations-partial');?>
+
+            
         </aside>
         <section class="content">
             <header class="content__header cards">
