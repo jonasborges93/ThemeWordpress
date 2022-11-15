@@ -45,7 +45,7 @@ Neste projeto vou construir o meu prórpio portfolio utilizando wordpress
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## Instalação
+## ⚙ Instalação
 Para realizar o instalção, é necessário ter um wordpress limpo, você pode baixar através do [desse link](https://wordpress.org/download/). 
 
 - Após as configurações iniciais, clonar o repositório na pasta 'wp-content/themes'.
