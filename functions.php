@@ -1,7 +1,9 @@
 <?php
 //Custom Post Types
+require get_template_directory() . '/assets/utils/cpt/person.php';
 require get_template_directory() . '/assets/utils/cpt/experiences.php';
 require get_template_directory() . '/assets/utils/cpt/educations.php';
+require get_template_directory() . '/assets/utils/cpt/technologies.php';
 
 
 //Carregando folhas de estilo e scripts

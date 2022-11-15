@@ -2,68 +2,10 @@
 <div class="layout">
     <main class="container">
         <aside class="sidebar">
-            <div class="sidebar__profile cards">
-                <img src="./assets/utils/images/profile.png" alt="Foto do Jonas Borges" class="sidebar__avatar">
-                <h1 class="sidebar__title">Jonas Borges</h1>
-                <p class="sidebar__text">Desenvolvedor Front-End</p>
-            </div>
-            <div class="sidebar__information cards">
-                <ul class="information__list">
-                    <li class="information__item">
-                        <a href="#" target="_blank" class="information__link">
-                            <img src="./assets/utils/icons/map-pin.svg" alt="Icone de Localização"
-                                class="item__icon">
-                            Porto Real/RJ
-                        </a>
-                    </li>
-                    <li class="information__item">
-                        <a href="#" target="_blank" class="information__link">
-                            <img src="./assets/utils/icons/briefcase.svg" alt="Icone da Instituição de Formação"
-                                class="item__icon">
-                            Rocketseat
-                        </a>
-                    </li>
-                    <li class="information__item">
-                        <a href="#" target="_blank" class="information__link">
-                            <img src="./assets/utils/icons/github.svg" alt="Icone do Github" class="item__icon">
-                            github.com/jonasborges93
-                        </a>
-                    </li>
-                    <li class="information__item">
-                        <a href="#" target="_blank" class="information__link">
-                            <img src="./assets/utils/icons/linkedin.svg" alt="Icone do Linkedin" class="item__icon">
-                            linkedin.com/in/jonasborges93
-                        </a>
-                    </li>
-                    <li class="information__item">
-                        <a href="#" target="_blank" class="information__link">
-                            <img src="./assets/utils/icons/globe.svg" alt="Icone do Site" class="item__icon">
-                            agenciajonasboges.com
-                        </a>
-                    </li>
-                    <li class="information__item">
-                        <a href="#" target="_blank" class="information__link">
-                            <img src="./assets/utils/icons/mail.svg" alt="Icone de e-mail" class="item__icon">
-                            jonas.borges93@hotmail.com
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="sidebar__technologies cards">
-                <h2 class="sidebar__title">Tecnologias</h2>
-                <ul class="technologies__list">
-                    <li class="technologies__item">Html</li>
-                    <li class="technologies__item">Css</li>
-                    <li class="technologies__item">JavaScript</li>
-                    <li class="technologies__item">React</li>
-                    <li class="technologies__item">React Native</li>
-                    <li class="technologies__item">NodeJS</li>
-                    <li class="technologies__item no-margin">Wordpress</li>
-                    <li class="technologies__item no-margin">Elementor</li>
-                    <li class="technologies__item no-margin">Figma</li>
-                </ul>
-            </div>
+            
 
+            <?php get_template_part('template-parts/person-partial');?>
+            <?php get_template_part('template-parts/technologies-partial');?>
             <?php get_template_part('template-parts/experiencies-partial');?>
             <?php get_template_part('template-parts/educations-partial');?>
 

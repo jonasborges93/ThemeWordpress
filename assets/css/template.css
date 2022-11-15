@@ -148,17 +148,17 @@ body {
     margin-bottom: 20px;
 }
 
-.content__link,
-.information__link {
+.information__item,
+.content__link{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: inherit;
+    color: var(--text-color);
     transition: .2s ease;
 }
 
-.content__link:hover,
-.information__link:hover {
+.information__item:hover,
+.content__link:hover{
     color: var(--bg-techs);
 }
 
