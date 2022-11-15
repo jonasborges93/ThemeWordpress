@@ -34,6 +34,9 @@ Neste projeto vou construir o meu prórpio portfolio utilizando wordpress
 - O Design deverá ser responsivo e funcionar em todos os tamanhos de tela
 - Deixar o projeto disponível através do Github Pages.
 
+<b>Plugins</b>
+Para o tema rodar corretamente, é necessário a instalação do plugin Advanced Custom Fields (ACF) no wordpress.
+
 <b>Futuras atualizações</b> 
 - Consumir a API do Git Hub
 
