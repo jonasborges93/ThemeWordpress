@@ -15,7 +15,8 @@
                     Ver no GitHub
                 </a>
             </header>
-            <div class="project">
+            <?php get_template_part('template-parts/project-partial'); ?>
+            <!-- <div class="project">
                 <article class="project__item cards">
                     <a href="#" target="_blank" class="project__link">
                         <header class="project__header">
@@ -160,7 +161,7 @@
                         </div>
                     </a>
                 </article>
-            </div>
+            </div> -->
 
             <div class="posts">
                 <div class="recentPosts__header cards">
