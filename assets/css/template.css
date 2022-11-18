@@ -283,12 +283,16 @@ body {
 .project{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
 .project__item{
     flex: 0 0 48%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 600px){
@@ -301,6 +305,13 @@ body {
 .project__link{
     text-decoration: none;
     color: var(--text-color);
+}
+
+.project__link{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .project__item:hover .project__title,
