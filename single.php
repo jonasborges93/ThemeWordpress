@@ -18,6 +18,7 @@
                         <?php echo the_content();?>
                     </article>
                 <?php endwhile;?>
+                <a href="<?php echo get_home_url(); ?>" class="post__link"><- Voltar</a>
             <?php endif;?>
         </section>
         

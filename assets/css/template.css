@@ -224,7 +224,6 @@ body {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    ;
     background-color: var(--text-color);
 }
 
@@ -348,6 +347,7 @@ body {
     transition: .2s ease;
 }
 
+.post p,
 .post__content p,
 .post__resume,
 .project__text{
@@ -425,6 +425,21 @@ body {
 
 .post__resume{
     margin-top: 20px;
+}
+
+.post p{
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+.post p a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.post p a:hover{
+    color: var(--bg-techs);
 }
 
 .tags__list{
