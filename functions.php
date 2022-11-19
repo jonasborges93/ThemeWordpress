@@ -21,3 +21,6 @@ register_nav_menus(
         'my_footer_menu' => 'Menu do Rodapé',
     )
 );
+
+// Adicionando Imagem destaque
+add_theme_support( 'post-thumbnails' );

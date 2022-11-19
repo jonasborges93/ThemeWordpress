@@ -239,7 +239,7 @@ body {
     font-weight: 700;
 }
 
-.post__date,
+.post__content .post__date,
 .experiences__situation,
 .education__situation {
     font-size: 12px;
@@ -348,6 +348,7 @@ body {
     transition: .2s ease;
 }
 
+.post__content p,
 .post__resume,
 .project__text{
     font-size: 14px;
@@ -391,6 +392,7 @@ body {
     align-items: flex-start;
 }
 
+.post__link:hover .post__content p,
 .post__link:hover .post__title,
 .post__link:hover .post__date,
 .post__link:hover .post__resume{
@@ -412,7 +414,12 @@ body {
     }
 }
 
-.post__date{
+.post__content p{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.post__content .post__date{
     margin-top: 10px;
 }
 

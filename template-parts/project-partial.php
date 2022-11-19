@@ -4,6 +4,13 @@ $json_github_pinned = json_decode(file_get_contents($url_api));
 ?>
 
 <?php if($json_github_pinned): ?>
+<header class="content__header cards">
+    <h2 class="content__title">Meus projetos</h2>
+    <a href="https://github.com/jonasborges93" target="_blank" class="content__link">
+        <img src="<?php echo get_template_directory_uri();?>/assets/utils/icons/github.svg" alt="Icone do GitHub" class="content__icon">
+        Ver no GitHub
+    </a>
+</header>
 <div class="project">
     <?php foreach($json_github_pinned as $repos): ?>
     <article class="project__item cards">
